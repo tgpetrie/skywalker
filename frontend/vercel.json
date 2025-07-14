@@ -1,13 +1,19 @@
 {
+  "version": 2,
+  "name": "bhabit-cbmooners-frontend",
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://moonwalker.onrender.com/"
+      "destination": "https://skywalker-backend.onrender.com/api/$1"
     }
   ],
   "build": {
     "env": {
-      "VITE_API_URL": "https://moonwalker.onrender.com/"
+      "VITE_API_URL": "https://skywalker-backend.onrender.com"
     }
-  }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite"
 }
