@@ -1,0 +1,166 @@
+# 🗂️ BHABIT CBMOONERS - Git Ignore Rules
+
+# 📦 Backup files
+BHABIT_CBMOONERS_backup_*.zip
+*.backup
+*.bak
+
+# 📁 Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🌐 Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+!.env.example
+
+# 🔧 Build outputs
+frontend/dist/
+frontend/build/
+backend/dist/
+*.tgz
+*.tar.gz
+
+# 🗄️ Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# 💻 Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 📱 Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# 🔗 nyc test coverage
+.nyc_output
+
+# 🃏 Jest
+.jest/
+
+# 🐞 ESLint cache
+.eslintcache
+
+# 🚀 Vercel
+.vercel
+
+# 🐳 Docker
+.dockerignore
+
+# 💡 IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# 🍎 macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 🐧 Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🪟 Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# 🎯 Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# 🔐 Local certificates
+*.pem
+
+# 🏗️ Build tools
+.next/
+out/
+.nuxt
+dist
+
+# 📊 Analytics
+.analytics/
+
+# 🧪 Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 🏠 Local development
+.venv/
+venv/
+ENV/
+env/
+.env.local
+
+# 🎨 Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
